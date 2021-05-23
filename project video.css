@@ -1,0 +1,66 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    /* color: rgb(12, 206, 231); */
+    /* height: 100%; */
+/* }
+.container::before{
+    content: "";
+    background: url('large\ book\ pic.jpg') center center fixed;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1; 
+opacity: 0.8;
+} */ 
+
+#video{
+display: grid;
+
+grid-template-columns:  repeat(3,1fr);
+}
+.heading{
+    text-align: center;
+}
+.box{
+    border: rgb(7, 7, 7) 1px solid;
+    border-radius: 12px;
+    padding: 12px 10px ;
+    margin: 10px 10px;
+    box-shadow: 5px 5px rgba(53, 50, 50,0.5);
+    
+
+}
+.box h3{
+    text-align: center;
+}
+.btn{
+    margin: 0px 142px ;
+    padding: 5px 15px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+
+}
+#chem{
+   background-color: rgba(247, 56, 104, 0.5); 
+}
+#physics{
+background-color: rgba(106, 112, 204, 0.5);
+}
+#maths{
+    background-color: rgba(93, 224, 148, 0.5);
+}
+#coding{
+    background-color: rgba(28, 17, 133, 0.5);
+}
+#bio{
+    background-color: coral;
+
+}
